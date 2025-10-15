@@ -16,11 +16,11 @@ export const Experience = () => {
     {
       company: "Nektar.ai",
       role: "Enterprise Solutions Engineer",
-      period: "Aug 2024 - Present",
+      period: "Present",
       location: "Bangalore, India",
       description: "Forward-deployed role driving ROI by coordinating with Technical Sales & GTM teams to align customer requirements.",
       highlights: [
-        "Technical owner for 50+ enterprise accounts including Anysphere (Cursor), GuideCX, and Ironclad",
+        "Technically supported enterprise accounts including Anysphere (Cursor), GuideCX, and Ironclad via Nektar",
         "Achieved 95% customer satisfaction through AI-powered solutions and prompt engineering",
         "Built custom integration workflows reducing implementation time by 60%",
         "Specialized in AI/LLM integration and production-grade prompt optimization",
@@ -30,7 +30,7 @@ export const Experience = () => {
     {
       company: "ISS STOXX",
       role: "AI Quality Engineer",
-      period: "Jan 2024 - May 2024",
+      period: "Jan 2024 - April 2025",
       location: "Remote",
       description: "Client-facing role focused on AI system quality and accessibility compliance.",
       highlights: [
