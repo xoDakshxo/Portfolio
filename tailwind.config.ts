@@ -102,7 +102,7 @@ export default {
         },
         "marquee": {
           from: { transform: "translateX(0)" },
-          to: { transform: "translateX(-33.333%)" },
+          to: { transform: "translateX(-100%)" },
         },
       },
       animation: {
@@ -115,7 +115,7 @@ export default {
         "scale-in": "scale-in 0.5s ease-out",
         "gradient": "gradient 8s ease infinite",
         "grid-flow": "grid-flow 8s ease-in-out infinite",
-        "marquee": "marquee 20s linear infinite",
+        "marquee": "marquee 45s linear infinite",
       },
     },
   },

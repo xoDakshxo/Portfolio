@@ -25,9 +25,9 @@ const sizeMap = {
   lg: 'w-80 h-96'
 };
 
-const GlowCard: React.FC<GlowCardProps> = ({ 
-  children, 
-  className = '', 
+const GlowCard: React.FC<GlowCardProps> = ({
+  children,
+  className = '',
   glowColor = 'gray',
   size = 'md',
   width,
@@ -40,7 +40,7 @@ const GlowCard: React.FC<GlowCardProps> = ({
   useEffect(() => {
     const syncPointer = (e: PointerEvent) => {
       const { clientX: x, clientY: y } = e;
-      
+
       if (cardRef.current) {
         cardRef.current.style.setProperty('--x', x.toFixed(2));
         cardRef.current.style.setProperty('--xp', (x / window.innerWidth).toFixed(2));
@@ -119,7 +119,7 @@ const GlowCard: React.FC<GlowCardProps> = ({
       mask-clip: padding-box, border-box;
       mask-composite: intersect;
     }
-    
+
     [data-glow]::before {
       background-image: radial-gradient(
         calc(var(--spotlight-size) * 0.75) calc(var(--spotlight-size) * 0.75) at
@@ -129,7 +129,7 @@ const GlowCard: React.FC<GlowCardProps> = ({
       );
       filter: brightness(2);
     }
-    
+
     [data-glow]::after {
       background-image: radial-gradient(
         calc(var(--spotlight-size) * 0.5) calc(var(--spotlight-size) * 0.5) at
