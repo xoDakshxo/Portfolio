@@ -3,7 +3,7 @@ import { Experience } from "@/components/Experience";
 import { Skills } from "@/components/Skills";
 import { PromptEngineering } from "@/components/PromptEngineering";
 import { Projects } from "@/components/Projects";
-import { Clients } from "@/components/Clients";
+// import { Clients } from "@/components/Clients";
 import { Contact } from "@/components/Contact";
 import { Navigation } from "@/components/Navigation";
 import { NoiseBackground } from "@/components/ui/noise-background";
@@ -29,9 +29,9 @@ const Index = () => {
           <section id="projects">
             <Projects />
           </section>
-          <section id="clients">
+          {/* <section id="clients">
             <Clients />
-          </section>
+          </section> */}
           <section id="contact">
             <Contact />
           </section>
